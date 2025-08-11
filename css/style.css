@@ -1,0 +1,107 @@
+.hero {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+.hero h1 {
+  color: #212529;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.hero .btn {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  background-color: #ffcc00;
+  border: none;
+}
+.hero img {
+  max-width: 250px;
+  border-radius: 50%;
+  border: 4px solid #ffcc00;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+  background-color: #ffffff;
+}
+.skills h2 {
+  color: #212529;
+  font-weight: 700;
+}
+.skills .skill-box {
+  width: 150px;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+}
+.skills .skill-box:hover {
+  transform: scale(1.05);
+  background-color: #fff3cd;
+}
+.skills .skill-box i {
+  color: #ffc107;
+}
+.skills .skill-box h5 {
+  margin-top: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.projects h2 {
+  color: #212529;
+  font-weight: 700;
+}
+.projects .card {
+  transition: transform 0.3s ease;
+}
+.projects .card:hover {
+  transform: translateY(-5px);
+}
+.projects .card img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.projects .card .card-body h5 {
+  font-weight: 600;
+}
+.projects .card .card-body .btn {
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: #ffcc00;
+  color: #212529;
+  border: none;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background-color: #e6b800;
+  color: #000;
+}
+
+form label {
+  font-weight: 600;
+  color: #212529;
+}
+form .form-control {
+  border-radius: 8px;
+  box-shadow: none;
+}
+form .form-control:focus {
+  border-color: #ffcc00;
+  box-shadow: 0 0 0 0.2rem rgba(255, 204, 0, 0.25);
+}
+form .btn-primary {
+  background-color: #ffcc00;
+  color: #212529;
+  font-weight: 600;
+}
+form .btn-primary:hover {
+  background-color: #e6b800;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */

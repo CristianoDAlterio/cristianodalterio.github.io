@@ -1,0 +1,183 @@
+// 🌈 Variabili
+$primary-bg: #f8f9fa;
+$text-color: #212529;
+
+// 🟡 Sezione Hero
+.hero {
+  padding: 80px 0;
+  background-color: $primary-bg;
+
+  h1 {
+    color: $text-color;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .btn {
+    font-weight: 600;
+    margin-top: 1.5rem;
+    background-color: #ffcc00;
+    border: none;
+  }
+
+  img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover; 
+    object-position: center; 
+    border-radius: none;
+    border: 4px solid #ffcc00;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+// 🟢 Sezione Competenze (Skills)
+.skills {
+  background-color: #ffffff;
+
+  h2 {
+    color: $text-color;
+    font-weight: 700;
+  }
+
+  /* Titoli di categoria (h4) */
+  h4 {
+    color: #6c757d;              
+    font-weight: 700;
+    letter-spacing: .04em;
+    margin: 2rem 0 1rem;
+    text-transform: none;
+    text-align: center;
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 48px;
+      height: 3px;
+      background: #ffcc00;       
+      margin: .5rem auto 0;
+      border-radius: 2px;
+    }
+  }
+
+  /* Box competenza */
+  .skill-box {
+  min-width: 120px;             
+  max-width: 180px;             
+  padding: 16px;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  transition: transform .2s ease, background-color .2s ease, border-color .2s ease;
+  text-align: center;
+  flex: 1 1 auto;              
+
+  i {
+    line-height: 1;
+    color: #ffc107;
+  }
+
+  h5 {
+    margin-top: 10px;
+    color: #333;
+    font-weight: 600;
+    font-size: 1rem;
+    white-space: normal;       
+    word-wrap: break-word;      
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    background-color: #fff;
+    border-color: #ffd24d;
+  }
+}
+
+@media (max-width: 576px) {
+  .skill-box {
+    min-width: 100px;          
+    max-width: 160px;
+    padding: 12px;
+  }
+  .skill-box h5 {
+    font-size: 0.85rem;
+  }
+}
+}
+
+// 🔵 Sezione Progetti
+.projects {
+  h2 {
+    color: $text-color;
+    font-weight: 700;
+  }
+
+  .card {
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      h5 h6{
+        font-weight: 600;
+      }
+
+      .btn {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+// 🔶 Bottone "Guarda il mio CV"
+.btn-primary {
+  background-color: #ffcc00;
+  color: #212529;
+  border: none;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #e6b800;
+    color: #000;
+  }
+}
+
+form {
+  label {
+    font-weight: 600;
+    color: $text-color;
+  }
+
+  .form-control {
+    border-radius: 8px;
+    box-shadow: none;
+
+    &:focus {
+      border-color: #ffcc00;
+      box-shadow: 0 0 0 0.2rem rgba(255, 204, 0, 0.25);
+    }
+  }
+
+  .btn-primary {
+    background-color: #ffcc00;
+    color: #212529;
+    font-weight: 600;
+
+    &:hover {
+      background-color: #e6b800;
+      color: #000;
+    }
+  }
+}

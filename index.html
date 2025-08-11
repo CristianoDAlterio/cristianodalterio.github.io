@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cristiano D'Alterio | Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon-v2.ico" type="image/x-icon" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons (per le skill) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Font Google (opzionale) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS compilato da Sass -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Nome Cognome - Portfolio" />
+  <meta property="og:description" content="Ingegnere polivalente e costruttore di startup: idee che diventano realtà." />
+  <meta property="og:image" content="img/og-preview.jpg" />
+  <!-- <meta property="og:url" content="https://tuosito.github.io/" /> -->
+  <meta property="og:type" content="website" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="img/logo_header.png" alt="Logo" width="40" height="40" class="me-2">
+      Cristiano D'Alterio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarOnePage" aria-controls="navbarOnePage" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarOnePage">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#bio">Chi sono</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">Competenze</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#progetti">Progetti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contattami.html" target="_blank">Contattami</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero d-flex align-items-center" id="bio">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+          <h1 class="display-4 fw-bold">Cristiano D'Alterio</h1>
+          <p class="lead">Progetto e realizzo soluzioni integrate:
+             dall’analisi dati alla gestione di startup e infrastrutture,
+              con un approccio sostenibile e orientato ai risultati.</p>
+          <a href="#skill" class="btn btn-warning mt-3">Scopri di più</a>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img src="img/foto-profilo.jpg" alt="Foto profilo" class="img-fluid rounded-circle shadow" width="300" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+<section class="skills py-5" id="skill">
+  <div class="container">
+    <h2 class="text-center mb-4">Competenze</h2>
+
+    <!-- Sviluppo e Programmazione -->
+    <h4 class="text-center text-muted mt-4">Sviluppo e Programmazione</h4>
+    <div class="d-flex flex-wrap justify-content-center gap-4">
+      <div class="skill-box text-center">
+        <i class="bi bi-code-slash display-6"></i>
+        <h5 class="mt-2">HTML</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-filetype-css display-6"></i>
+        <h5 class="mt-2">CSS</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-braces display-6"></i>
+        <h5 class="mt-2">Python</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-braces display-6"></i>
+        <h5 class="mt-2">C++</h5>
+      </div>
+    </div>
+
+    <!-- Analisi Dati e Machine Learning -->
+    <h4 class="text-center text-muted mt-5">Analisi Dati e Machine Learning</h4>
+    <div class="d-flex flex-wrap justify-content-center gap-4">
+      <div class="skill-box text-center">
+        <i class="bi bi-bar-chart-line display-6"></i>
+        <h5 class="mt-2">Data Analysis</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-table display-6"></i>
+        <h5 class="mt-2">Excel Avanzato</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-cpu display-6"></i>
+        <h5 class="mt-2">Machine Learning</h5>
+      </div>
+    </div>
+
+    <!-- Progettazione e Ingegneria -->
+    <h4 class="text-center text-muted mt-5">Progettazione e Ingegneria</h4>
+    <div class="d-flex flex-wrap justify-content-center gap-4">
+      <div class="skill-box text-center">
+        <i class="bi bi-box display-6"></i>
+        <h5 class="mt-2">CAD 3D</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-building display-6"></i>
+        <h5 class="mt-2">Progettazione Meccanica e Strutturale</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-printer display-6"></i>
+        <h5 class="mt-2">Modellazione Rapida</h5>
+      </div>
+    </div>
+
+    <!-- Soft Skills -->
+    <h4 class="text-center text-muted mt-5">Soft Skills</h4>
+    <div class="d-flex flex-wrap justify-content-center gap-4">
+      <div class="skill-box text-center">
+        <i class="bi bi-people display-6"></i>
+        <h5 class="mt-2">Team Working</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-lightbulb display-6"></i>
+        <h5 class="mt-2">Pensiero Critico</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-stars display-6"></i>
+        <h5 class="mt-2">Creatività e Innovazione</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-chat-dots display-6"></i>
+        <h5 class="mt-2">Interfaccia Tecnica</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-shuffle display-6"></i>
+        <h5 class="mt-2">Adattabilità</h5>
+      </div>
+      <div class="skill-box text-center">
+        <i class="bi bi-eye display-6"></i>
+        <h5 class="mt-2">Attenzione ai Dettagli</h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="projects py-5" id="progetti">
+    <div class="container">
+      <h2 class="text-center mb-4">Progetti</h2>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/progetto1.png" class="card-img-top" alt="Anteprima progetto 1">
+            <div class="card-body">
+              <h5 class="card-title">Data Analysis & Reporting Ambientale</h5>
+              <h6 class="card-title">Azienda di gestione rifiuti – Campania (nome riservato)</h6>
+              <p class="card-text">Sviluppo di un sistema avanzato di raccolta, elaborazione e visualizzazione dei dati operativi
+                 per ottimizzare i flussi di raccolta e trattamento rifiuti. Creazione di dashboard interattive e report periodici
+                  per supportare il management nel miglioramento dell’efficienza e nella conformità normativa.
+                Focus su KPI logistici, ambientali e di costo.</p>
+              <a href="pdf/lavoro1.pdf" target="_blank" class="btn btn-outline-dark btn-sm">Scopri di più</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/progetto2.png" class="card-img-top" alt="Anteprima progetto 2">
+            <div class="card-body">
+              <h5 class="card-title">Analisi Effetti Sismici su Pali di Fondazione</h5>
+              <h6 class="card-title">Collaborazione di ricerca con l’Università Luigi Vanvitelli</h6>
+              <p class="card-text">Ricerca con l’Università di Cambridge tramite test in centrifuga su argilla caolinica per studiare 
+                l’interazione suolo-palo-struttura. I risultati mostrano che, in terreni soffici, i pali possono amplificare il moto 
+                sismico e aumentare il periodo naturale delle strutture.</p>
+              <a href="pdf/lavoro2.pdf" target="_blank" class="btn btn-outline-dark btn-sm">Scopri di più</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/progetto3.png" class="card-img-top" alt="Anteprima progetto 3">
+            <div class="card-body">
+              <h5 class="card-title"> Sistema Integrato di Supporto Scolastico per la Crescita Accademica e Personale</h5>
+              <h6 class="card-title">Un progetto innovativo che mette il benessere dello studente al centro</h6>
+              <p class="card-text">Creazione di un sistema integrato di supporto scolastico per ragazzi dai 6 ai 25 anni, con logistica ottimizzata, 
+                gestionale personalizzato e strategie di marketing data-driven, mettendo lo studente al centro del progetto, accompagnandolo
+                in tutte le fasi della crescita umana e tecnica.</p>
+              <a href="pdf/lavoro3.pdf" target="_blank" class="btn btn-outline-dark btn-sm">Scopri di più</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="cv.html" target="_blank" class="btn btn-primary btn-lg">Guarda il mio CV</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-dark text-white py-4 mt-5">
+    <div class="container-fluid text-center">
+      <p class="mb-2">Seguimi sui social:</p>
+      <div class="social-icons mb-3">
+        <a href="https://github.com/CristianoDAlterio" target="_blank" class="text-white mx-2 text-decoration-none">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/cristianodalterio/" target="_blank" class="text-white mx-2 text-decoration-none">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.facebook.com/cristiano.dalterio/" target="_blank" class="text-white mx-2 text-decoration-none">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/cristianodalterio/" target="_blank" class="text-white mx-2 text-decoration-none">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <p class="mb-0 small">&copy; 2025 Cristiano D'Alterio – Tutti i diritti riservati</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
