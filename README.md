@@ -26,15 +26,9 @@ Questo progetto è un **portfolio personale responsive**, sviluppato con **HTML,
 ## 🎨 Funzionalità principali
 - **Responsive design** → ottimizzato per ogni dispositivo  
 - **Navbar e footer coerenti** → stessa esperienza in tutte le pagine  
-- **Accessibilità** → uso di `aria-label`, `aria-hidden`, etichette collegate  
-- **SEO e Social sharing** → meta description, Open Graph e Twitter Card  
+- **SEO e Social sharing** → meta description, Open Graph 
 - **Curriculum scaricabile** → PDF e Word disponibili  
 - **Form contatti** → con honeypot anti-bot  
-
----
-
-## 📸 Screenshot
-*(aggiungi qui uno o due screenshot delle pagine principali)*  
 
 ---
 
