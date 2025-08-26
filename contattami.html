@@ -11,12 +11,12 @@
   <!-- Open Graph -->
   <meta property="og:title" content="Contattami – Cristiano D'Alterio" />
   <meta property="og:description" content="Scrivimi per informazioni, consulenze o collaborazioni professionali." />
-  <meta property="og:image" content="https://cristianodalterio.github.io/img/og-preview.jpg" />
+  <meta property="og:image" content="https://cristianodalterio.github.io/assets/img/og-preview.jpg" />
   <meta property="og:url" content="https://cristianodalterio.github.io/contattami.html" />
   <meta property="og:type" content="website" />
 
   <!-- Favicon -->
-  <link rel="icon" href="img/favicon-v2.ico" type="image/x-icon" />
+  <link rel="icon" href="assets/img/favicon-v2.ico" type="image/x-icon" />
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <style>
     /* Honeypot nascosto */
     .hp-field { position: absolute; left: -5000px; opacity: 0; }
@@ -41,7 +41,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="index.html">
-        <img src="img/logo_header.png" alt="Logo Cristiano D'Alterio" width="40" height="40" class="me-2">
+        <img src="assets/img/logo_header.png" alt="Logo Cristiano D'Alterio" width="40" height="40" class="me-2">
         Cristiano D'Alterio
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Apri menu">
@@ -96,7 +96,7 @@
 
       <!-- IMMAGINE ILLUSTRAZIONE -->
       <div class="col-lg-6 text-center">
-        <img src="img/contact.svg" 
+        <img src="assets/img/contact.svg" 
             alt="Illustrazione di contatto, persona che invia un messaggio" 
             class="img-fluid" style="max-width: 400px;">
       </div>
@@ -120,13 +120,10 @@
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- IMPORTANTE
-  Non implemento ejs perché quando lo carico su GitHub vorrei evitare di mettere informazioni personali. Lo implemento a scopo
-  didattico.   -->
-  <!-- EmailJS
+  <!-- EmailJS (commentato per scopi didattici) -->
+  <!-- 
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script>
-    // Inizializza EmailJS con la tua Public Key
     emailjs.init("PUBLIC_KEY");
 
     const form = document.getElementById("contactForm");
@@ -142,12 +139,10 @@
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
 
-      // blocca i bot (honeypot compilato)
       if (form.website && form.website.value) {
-        return; // non inviare nulla
+        return; // honeypot: non inviare nulla
       }
 
-      // UI: disabilita bottone
       submitBtn.disabled = true;
       submitBtn.textContent = "Invio…";
 
@@ -163,6 +158,7 @@
         submitBtn.textContent = "Invia messaggio";
       }
     });
-  </script> -->
+  </script>
+  -->
 </body>
 </html>
