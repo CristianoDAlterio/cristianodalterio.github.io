@@ -14,8 +14,8 @@ Questo progetto è un **portfolio personale responsive**, sviluppato con **HTML,
 ---
 
 ## 🚀 Tecnologie utilizzate  
-- **HTML5** – struttura delle pagine  
-- **CSS3 / Sass** – stili e personalizzazioni  
+- **HTML** – struttura delle pagine  
+- **CSS / Sass** – stili e personalizzazioni  
 - **Bootstrap 5** – griglia, componenti e responsive design  
 - **Bootstrap Icons** – icone per competenze e social  
 - **EmailJS** – integrazione (didattica) per l’invio di email tramite il form contatti  
